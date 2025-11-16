@@ -1,0 +1,31 @@
+# Все текстовые файлы нормализуем
+* text=auto
+
+# Явно для TS/JS/JSON/HTML/CSS/MD
+*.ts       text
+*.tsx      text
+*.js       text
+*.jsx      text
+*.json     text
+*.css      text
+*.scss     text
+*.html     text
+*.md       text
+
+# Не трогаем бинарники
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.woff     binary
+*.woff2    binary
+*.eot      binary
+*.ttf      binary
+*.otf      binary
+
+# Специально для конфигов Git и Editor
+.gitattributes text
+.editorconfig text
+.eslintrc*   text
+.prettierrc* text
